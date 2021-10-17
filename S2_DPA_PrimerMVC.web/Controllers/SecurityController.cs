@@ -16,7 +16,7 @@ namespace S2_DPA_PrimerMVC.web.Controllers
         public IActionResult Login(string email,string password) 
         {
 
-            if (email == "mezajose@hotmail.com" && password == "1254") 
+            if (email == "mezajose@hotmail.com" && password == "12541254") 
             {
                 return RedirectToAction("Index", "Home", new { area = "Marketing" });
             
